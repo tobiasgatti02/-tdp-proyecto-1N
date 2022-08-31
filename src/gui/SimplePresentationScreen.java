@@ -67,30 +67,35 @@ public class SimplePresentationScreen extends JFrame {
 		
 		
 		textField = new JTextField();
+		textField.setEditable(false);
 		textField.setBounds(76, 11, 349, 20);
 		tabInformation.add(textField);
 		textField.setColumns(10);
 		textField.setText(""+studentData.getId());
 		
 		textField_1 = new JTextField();
+		textField_1.setEditable(false);
 		textField_1.setBounds(76, 42, 349, 20);
 		tabInformation.add(textField_1);
 		textField_1.setColumns(10);
 		textField_1.setText(studentData.getLastName());
 		
 		textField_2 = new JTextField();
+		textField_2.setEditable(false);
 		textField_2.setBounds(76, 73, 349, 20);
 		tabInformation.add(textField_2);
 		textField_2.setColumns(10);
 		textField_2.setText(studentData.getFirstName());
 		
 		textField_3 = new JTextField();
+		textField_3.setEditable(false);
 		textField_3.setBounds(76, 104, 349, 20);
 		tabInformation.add(textField_3);
 		textField_3.setColumns(10);
 		textField_3.setText(studentData.getMail());
 		
 		textField_4 = new JTextField();
+		textField_4.setEditable(false);
 		textField_4.setBounds(76, 135, 349, 20);
 		tabInformation.add(textField_4);
 		textField_4.setColumns(10);
