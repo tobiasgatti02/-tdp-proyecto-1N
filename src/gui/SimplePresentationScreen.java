@@ -141,7 +141,7 @@ public class SimplePresentationScreen extends JFrame {
 		ImageIcon icono = new ImageIcon(getClass().getResource(studentData.getPathPhoto()));
 		ImageIcon img = new ImageIcon(icono.getImage().getScaledInstance(150,200, Image.SCALE_DEFAULT));
 		LabelIMG.setIcon(img);
-		LabelIMG.setBounds(445, 32, 150, 163);
+		LabelIMG.setBounds(445, 32, 159, 166);
 		contentPane.add(LabelIMG);
 	
 	}
